@@ -36,11 +36,11 @@ public class SwitchDay {
 
 	public static void main(String[] args) {
 
-		SwitchDay s = new SwitchDay();
+		SwitchDay switchDay = new SwitchDay();
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a number:");
 		int day = scan.nextInt();
-		s.findDay(day);
+		switchDay.findDay(day);
 		scan.close();
 	}
 
