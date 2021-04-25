@@ -84,45 +84,20 @@ public class Patterns {
 
 	// Pattern6
 	public void pattern6(int n) {
-		int pos = n * 2 - 1;
-		int a = 0, h;
-		int count = 1;
-		space = n;
-		star = 1;
-		for (i = 1; i <= n; i++) {
-			h = i;
-			// for(h=0;;) {
-			for (j = 0; j < space; j++) {
-				System.out.print(" ");
 
+		for (i = 1; i < n; i++) {
+
+			for (j = 0; j < n - i; j++) {
+				System.out.print("-");
 			}
-
-			for (k = 1; k < star; k++) {
-				if (star == 1) {
-					System.out.print(h);
-				} else {
-					for (h = i; h < 1; h++) {
-						System.out.print(h);
-					}
-
-					if (h == 1) {
-						System.out.print(h);
-						h++;
-					}
-					if (h > 1) {
-						System.out.print(h);
-						h--;
-					}
-				}
-
+			for (int first = i; first >= 1; first--) {
+				System.out.print(first);
 			}
-
-			space--;
-			star += 2;
-
+			for (int k = 2; k <= i; k++) {
+				System.out.print(k);
+			}
 			System.out.println();
 		}
-
 	}
 	// }
 
@@ -138,7 +113,7 @@ public class Patterns {
 		System.out.println("=================");
 		p.pattern5(5);
 		System.out.println("=================");
-		p.pattern6(4);
+		p.pattern6(7);
 
 	}
 
