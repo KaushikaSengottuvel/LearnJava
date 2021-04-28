@@ -88,7 +88,7 @@ public class Patterns {
 		for (i = 1; i < n; i++) {
 
 			for (j = 0; j < n - i; j++) {
-				System.out.print("-");
+				System.out.print(" ");
 			}
 			for (int first = i; first >= 1; first--) {
 				System.out.print(first);
