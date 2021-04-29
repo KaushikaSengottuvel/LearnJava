@@ -12,11 +12,11 @@ public class OccurrenceOfCharacter {
 	}
 
 	public static void main(String[] args) {
-		OccurrenceOfCharacter obj = new OccurrenceOfCharacter();
+		OccurrenceOfCharacter object = new OccurrenceOfCharacter();
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a String");
 		String name = scan.next();
-		obj.findOccurrenceOfCharacter(name);
+		object.findOccurrenceOfCharacter(name);
 		scan.close();
 
 	}
