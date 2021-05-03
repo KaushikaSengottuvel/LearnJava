@@ -6,8 +6,20 @@ public class OccurrenceOfCharacter {
 
 	public void findOccurrenceOfCharacter(String name) {
 		int i, j;
-		for (i = 0; i < name.length() - 1; i++) {
-			// for()
+		String n = "";
+		for (i = 0; i < name.length(); i++) {
+
+			int count = 0;
+			for (j = 0; j < name.length(); j++) {
+
+				if (name.charAt(i) == name.charAt(j)) {
+					count++;
+
+				}
+			}
+
+			System.out.println(name.charAt(i) + " - " + count);
+
 		}
 	}
 
