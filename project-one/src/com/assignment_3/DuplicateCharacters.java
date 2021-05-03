@@ -30,5 +30,3 @@ public class DuplicateCharacters {
 	}
 
 }
-
-//System.out.print(name.charAt(i) + " ");
