@@ -8,18 +8,23 @@ public class StringPalindrome {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter the string :");
 		String name = scan.next();
-		int i, j;
-		int len = name.length();
-		int rev = len;
-		char[] namee = name.toCharArray();
-		for (i = 0; i < len / 2; i++, rev--) {
-			if (namee[i] == namee[rev]) {
+		StringBuilder sb = new StringBuilder(name);
+		/*
+		 * int i, j; int len = name.length(); int rev = len; char[] namee =
+		 * name.toCharArray(); for (i = 0; i < len / 2; i++, rev--) { if (namee[i] ==
+		 * namee[rev]) {
+		 *
+		 * System.out.println("s");
+		 *
+		 * } else { System.out.println("no"); } }
+		 */
+		String revname = sb.reverse().toString();
+		System.out.println(name + revname);
+		if (name.equals(revname)) {
+			System.out.println("Palindrome");
+		} else {
+			System.out.println("Not a Palindrome");
 
-				System.out.println("s");
-				continue;
-			} else {
-				System.out.println("no");
-			}
 		}
 
 	}
