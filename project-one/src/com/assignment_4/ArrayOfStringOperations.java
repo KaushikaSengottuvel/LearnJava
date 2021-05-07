@@ -8,10 +8,10 @@ public class ArrayOfStringOperations {
 		animals[2] = "Bear";
 		int i = 1;
 		for (String animal : animals) {
-			sb.append(i).append(".").append(animals);
+			sb.append(i).append(".").append(animal).append(" ");
 			i++;
 		}
-		System.out.println(sb.toString());
+
 		modified = sb.toString();
 		return modified;
 
