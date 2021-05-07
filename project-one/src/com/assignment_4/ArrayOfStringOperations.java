@@ -1,12 +1,14 @@
 package com.assignment_4;
 
 public class ArrayOfStringOperations {
-	public static StringBuilder sb = new StringBuilder();
 
 	public String processAnimals(String animals[]) {
+		StringBuilder sb = new StringBuilder();
 		String modified = "";
 		animals[2] = "Bear";
+
 		int i = 1;
+
 		for (String animal : animals) {
 			sb.append(i).append(".").append(animal).append(" ");
 			i++;

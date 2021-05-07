@@ -13,7 +13,7 @@ public class LearnWhileLoop {
 			if (n == 5) {
 				System.out.println("You are exited from the program");
 				break;
-			} else if (n < 11) {
+			} else if (n < 11) { // Why ?
 				System.out.println("Re-enter the number : ");
 				continue;
 			} else {

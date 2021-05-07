@@ -11,6 +11,8 @@ public class StringReverse {
 		StringBuilder stringbuilder = new StringBuilder(name);
 
 		System.out.println("Reversed String : " + stringbuilder.reverse());
+
+		scan.close();
 	}
 
 }
