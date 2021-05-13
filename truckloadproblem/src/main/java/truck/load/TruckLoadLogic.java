@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class TruckLoadLogic {
 
-	public void writeTruckLoadLogic(UserInput userInput) {
+	public int writeTruckLoadLogic(UserInput userInput) {
 
 		// get values from userinput
 		int trucks = userInput.getTrucks();
@@ -19,6 +19,8 @@ public class TruckLoadLogic {
 		Arrays.sort(truckWeights);
 		int diff=truckWeights[trucks-1] - truckWeights[0];
 		System.out.println("Result : "+diff);
+		
+		return diff;
 	}
 
 }
