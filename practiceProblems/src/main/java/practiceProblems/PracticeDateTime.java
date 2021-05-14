@@ -1,6 +1,7 @@
 package practiceProblems;
 
 import java.time.LocalDate;
+import java.time.LocalTime;
 
 public class PracticeDateTime {
 	
@@ -8,6 +9,11 @@ public class PracticeDateTime {
 	{
 		return date.plusDays(5).plusWeeks(2);
 			
+	}
+	
+	public LocalTime removeTwoHours(LocalTime time)
+	{
+		return time.minusHours(2);
 	}
 
 }
