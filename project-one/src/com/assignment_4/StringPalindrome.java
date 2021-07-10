@@ -27,6 +27,8 @@ public class StringPalindrome {
 
 		}
 
+		scan.close();
+
 	}
 
 }

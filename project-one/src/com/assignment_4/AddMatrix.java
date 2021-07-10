@@ -1,7 +1,7 @@
 package com.assignment_4;
 
 public class AddMatrix {
-	int[][] c = new int[2][3];
+	private int[][] c = new int[2][3];
 
 	public int[][] addTwoMatrix(int[][] a, int[][] b) {
 
