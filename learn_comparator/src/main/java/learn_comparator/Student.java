@@ -36,7 +36,6 @@ public class Student {
 	}
 
 	public Student(int rollNo, String name, String city) {
-		super();
 		this.rollNo = rollNo;
 		this.name = name;
 		this.city = city;
