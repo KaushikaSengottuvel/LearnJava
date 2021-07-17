@@ -5,10 +5,6 @@ public class Player {
 	private String name;
 	private int age, ranking;
 
-	public Player() {
-		// TODO Auto-generated constructor stub
-	}
-
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -75,18 +71,23 @@ public class Player {
 		this.ranking = ranking;
 	}
 
+	public Player() {
+
+	}
+
 	public Player(Builder builder) {
 		this.name = builder.name;
 		this.age = builder.age;
 		this.ranking = builder.ranking;
 	}
 
+	public static Builder builder() {
+		return new Builder();
+	}
+
 	public static final class Builder {
 		private String name;
 		private int age, ranking;
-
-		private Builder() {
-		}
 
 		public Builder withName(String name) {
 			this.name = name;
@@ -106,5 +107,7 @@ public class Player {
 		public Player build() {
 			return new Player(this);
 		}
+
 	}
+
 }

@@ -9,11 +9,14 @@ public class FootballTeam {
 
 	public static void main(String[] args) {
 
-		Player player1 = new Player("Kaushi", 26, 2);
-		Player player2 = new Player("Ronaldo", 21, 4);
-		Player player3 = new Player("Karthick", 32, 3);
-		Player player4 = new Player("Imaiyal", 1, 1);
 		List<Player> playerlist = new ArrayList<Player>();
+
+		Player player1 = Player.builder().withName("Kaushi").withAge(26).witRanking(2).build();
+		Player player2 = Player.builder().withName("Ronaldo").withAge(21).witRanking(4).build();
+		Player player3 = Player.builder().withName("Karthick").withAge(32).witRanking(3).build();
+
+		Player player4 = Player.builder().withName("Imaiyal").withAge(1).witRanking(1).build();
+
 		playerlist.add(player1);
 		playerlist.add(player2);
 		playerlist.add(player3);
@@ -23,18 +26,18 @@ public class FootballTeam {
 		System.out.println(playerlist);
 
 		Comparator<Player> byName = (a, b) -> a.getName().compareTo(b.getName());
-		
-		Collections.sort(playerlist,byName);
+
+		Collections.sort(playerlist, byName);
 		System.out.println("Sorted by Name : \n" + playerlist);
 
 		Comparator<Player> byAge = (a, b) -> b.getAge() - a.getAge();
 
-		Collections.sort(playerlist,byAge);
+		Collections.sort(playerlist, byAge);
 		System.out.println("Sorted by Age : \n" + playerlist);
 
 		Comparator<Player> byRanking = (a, b) -> a.getRanking() - b.getRanking();
 
-		Collections.sort(playerlist,byRanking);
+		Collections.sort(playerlist, byRanking);
 		System.out.println("Sorted by Ranking : \n" + playerlist);
 
 	}
