@@ -4,14 +4,15 @@ import java.util.Scanner;
 
 public class ProblemMain {
 
-	int option;
-
 	public void init() {
+
+		int option;
+		Scanner sc = new Scanner(System.in);
 
 		do {
 			System.out.println(
 					"STUDENT MANAGEMENT SYSTEM \n 1.Create a new Student \n 2.Update a student \n 3.Delete a student \n 4.Exit");
-			Scanner sc = new Scanner(System.in);
+
 			option = sc.nextInt();
 
 			switch (option) {
@@ -30,6 +31,8 @@ public class ProblemMain {
 				break;
 			}
 		} while (option != 4);
+
+		sc.close();
 
 	}
 
