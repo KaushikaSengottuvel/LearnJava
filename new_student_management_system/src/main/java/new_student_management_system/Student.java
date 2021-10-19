@@ -2,11 +2,11 @@ package new_student_management_system;
 
 import java.time.LocalDate;
 
-public class CreateStudent {
+public class Student {
 
 	private String firstName;
 	private String lastName;
-	private int id;
+	private long id;
 	private LocalDate dob;
 	private String emailId;
 
@@ -26,11 +26,11 @@ public class CreateStudent {
 		this.lastName = lastName;
 	}
 
-	public int getId() {
+	public long getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 
