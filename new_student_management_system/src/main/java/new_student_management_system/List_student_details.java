@@ -15,7 +15,7 @@ public class List_student_details {
 
 		for (Student studentLis : studentList) {
 			System.out.println(
-					count++ + "First Name-: " + studObj.getFirstName() + "Last Name :" + studObj.getLastName());
+					count++ + "First Name : " + studObj.getFirstName() + "Last Name :" + studObj.getLastName());
 		}
 
 	}
