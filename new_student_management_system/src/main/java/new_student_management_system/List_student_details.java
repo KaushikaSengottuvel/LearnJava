@@ -5,19 +5,17 @@ import java.util.List;
 
 public class List_student_details {
 
-	Student studObj = new Student();
-	List<Student> studentList = new ArrayList();
+	public List<Student> studentList = new ArrayList();
 
 	public void list_student_details() {
 		int count = 1;
 
-		studentList.add(studObj);
-
 		for (Student studentLis : studentList) {
-			System.out.println(
-					count++ + "First Name : " + studObj.getFirstName() + "Last Name :" + studObj.getLastName());
+			System.out.println(count++ + ". First Name  : " + studentLis.getFirstName() + " Last Name :"
+					+ studentLis.getLastName());
+			System.out.println("hi");
 		}
-
+		// count = 1;
 	}
 
 }

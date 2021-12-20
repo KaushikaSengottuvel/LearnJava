@@ -1,16 +1,17 @@
 package new_student_management_system;
 
 import java.time.LocalDate;
+import java.util.List;
 import java.util.Scanner;
 
 public class UserInput {
 
-	Scanner sc = new Scanner(System.in);
+	private Scanner sc = new Scanner(System.in);
+	private List_student_details display_student_detailsObj = new List_student_details();
 
 	public void init() {
 
 		int option;
-		List_student_details display_student_detailsObj = new List_student_details();
 
 		do {
 			System.out.println(
@@ -66,6 +67,12 @@ public class UserInput {
 		System.out.println("Enter the student's EmailId :");
 		emailId = sc.next();
 		studObj.setEmailId(emailId);
+
+		// local list
+		List<Student> studentList = display_student_detailsObj.studentList;
+		studentList.add(studObj);
+
+		System.out.println("Data has been saved.");
 
 	}
 
