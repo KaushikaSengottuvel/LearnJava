@@ -9,7 +9,7 @@ public class fibonacci {
 		System.out.println("fibonacci series till?");
 		Scanner sc = new Scanner(System.in);
 		a = sc.nextInt();
-		System.out.print(first);
+		System.out.print(first + " " + second + " ");
 		for (int i = 2; i <= a; i++) {
 			third = first + second;
 			first = second;
