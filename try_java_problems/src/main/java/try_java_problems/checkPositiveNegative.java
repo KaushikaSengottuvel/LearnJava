@@ -2,7 +2,7 @@ package try_java_problems;
 
 import java.util.Scanner;
 
-public class check_Pos_negve {
+public class checkPositiveNegative {
 
 	public static void main(String[] args) {
 		int numm;
@@ -12,6 +12,7 @@ public class check_Pos_negve {
 			System.out.println("Negative number");
 		else
 			System.out.println("Positive number");
+		sc.close();
 
 	}
 
