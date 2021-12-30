@@ -2,7 +2,7 @@ package try_java_problems;
 
 import java.util.Scanner;
 
-public class add_2_integers {
+public class add2Integers {
 	public static void main(String args[]) {
 		int a, b;
 		Scanner sc = new Scanner(System.in);
