@@ -14,6 +14,7 @@ public class checkAlphaberNot {
 			System.out.println("Alphabet");
 		else
 			System.out.println("nope!");
+		sc.close();
 
 	}
 
