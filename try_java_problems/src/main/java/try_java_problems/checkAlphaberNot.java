@@ -2,7 +2,7 @@ package try_java_problems;
 
 import java.util.Scanner;
 
-public class check_alphaber_not {
+public class checkAlphaberNot {
 
 	public static void main(String[] args) {
 		char ch;

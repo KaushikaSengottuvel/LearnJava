@@ -2,7 +2,7 @@ package try_java_problems;
 
 import java.util.Scanner;
 
-public class check_even_or_odd {
+public class checkEvenOrOdd {
 
 	public static void main(String[] args) {
 		int a;

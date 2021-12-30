@@ -2,7 +2,7 @@ package try_java_problems;
 
 import java.util.Scanner;
 
-public class check_leap_year {
+public class checkLeapYear {
 
 	public static void main(String[] args) {
 
@@ -13,6 +13,7 @@ public class check_leap_year {
 			System.out.println("Leap Year");
 		} else
 			System.out.println("Nope!");
+		sc.close();
 
 	}
 
