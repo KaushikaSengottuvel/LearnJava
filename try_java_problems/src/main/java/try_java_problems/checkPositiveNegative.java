@@ -2,7 +2,7 @@ package try_java_problems;
 
 import java.util.Scanner;
 
-public class checkPositiveNegative {
+public class CheckPositiveNegative {
 
 	public static void main(String[] args) {
 		int numm;

@@ -2,7 +2,7 @@ package try_java_problems;
 
 import java.util.Scanner;
 
-public class countNoOfDigits {
+public class CountNoOfDigits {
 
 	public static void main(String[] args) {
 		int a, count = 0;

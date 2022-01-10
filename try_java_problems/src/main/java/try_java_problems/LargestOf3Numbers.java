@@ -2,7 +2,7 @@ package try_java_problems;
 
 import java.util.Scanner;
 
-public class largest_of_3_numbers {
+public class LargestOf3Numbers {
 
 	public static void main(String[] args) {
 

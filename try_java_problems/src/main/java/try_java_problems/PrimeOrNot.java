@@ -2,7 +2,7 @@ package try_java_problems;
 
 import java.util.Scanner;
 
-public class prime_or_not {
+public class PrimeOrNot {
 
 	public static void main(String[] args) {
 		int x, count = 0;

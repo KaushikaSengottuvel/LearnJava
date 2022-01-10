@@ -2,7 +2,7 @@ package try_java_problems;
 
 import java.util.Scanner;
 
-public class power_of_number {
+public class PowerOfNumber {
 
 	public static void main(String[] args) {
 

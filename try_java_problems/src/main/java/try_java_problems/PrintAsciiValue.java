@@ -2,7 +2,7 @@ package try_java_problems;
 
 import java.util.Scanner;
 
-public class print_ascii_value {
+public class PrintAsciiValue {
 
 	public static void main(String[] args) {
 		char a;

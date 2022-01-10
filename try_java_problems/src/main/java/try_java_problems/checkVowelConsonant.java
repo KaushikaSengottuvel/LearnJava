@@ -2,7 +2,7 @@ package try_java_problems;
 
 import java.util.Scanner;
 
-public class checkVowelConsonant {
+public class CheckVowelConsonant {
 
 	public static void main(String[] args) {
 		String a;

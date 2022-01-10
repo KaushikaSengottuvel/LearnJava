@@ -2,7 +2,7 @@ package try_java_problems;
 
 import java.util.Scanner;
 
-public class computeQuotientAndRemainder {
+public class ComputeQuotientAndRemainder {
 
 	public static void main(String[] args) {
 		int a, b;

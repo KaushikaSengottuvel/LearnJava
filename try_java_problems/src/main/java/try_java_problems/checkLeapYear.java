@@ -2,7 +2,7 @@ package try_java_problems;
 
 import java.util.Scanner;
 
-public class checkLeapYear {
+public class CheckLeapYear {
 
 	public static void main(String[] args) {
 

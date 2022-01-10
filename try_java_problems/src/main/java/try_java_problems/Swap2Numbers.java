@@ -2,7 +2,7 @@ package try_java_problems;
 
 import java.util.Scanner;
 
-public class swap_2_numbers {
+public class Swap2Numbers {
 
 	public static void main(String[] args) {
 		int a, b, c;

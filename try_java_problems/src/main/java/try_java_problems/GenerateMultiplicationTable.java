@@ -2,7 +2,7 @@ package try_java_problems;
 
 import java.util.Scanner;
 
-public class generate_multiplication_table {
+public class GenerateMultiplicationTable {
 	public static void main(String[] args) {
 		int a, till;
 		Scanner sc = new Scanner(System.in);

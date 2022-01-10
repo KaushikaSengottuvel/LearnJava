@@ -2,7 +2,7 @@ package try_java_problems;
 
 import java.util.Scanner;
 
-public class display_A_to_Z {
+public class DisplayAtoZ {
 
 	public static void main(String[] args) {
 		char a;

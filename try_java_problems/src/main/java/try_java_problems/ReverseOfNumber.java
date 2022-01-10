@@ -2,7 +2,7 @@ package try_java_problems;
 
 import java.util.Scanner;
 
-public class reverse_of_number {
+public class ReverseOfNumber {
 
 	public static void main(String[] args) {
 		int a, b, c = 0;

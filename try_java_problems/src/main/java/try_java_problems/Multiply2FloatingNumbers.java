@@ -2,7 +2,7 @@ package try_java_problems;
 
 import java.util.Scanner;
 
-public class multiply_2_floating_numbers {
+public class Multiply2FloatingNumbers {
 
 	public static void main(String[] args) {
 		float a, b;

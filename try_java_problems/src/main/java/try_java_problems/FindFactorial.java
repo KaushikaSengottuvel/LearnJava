@@ -2,7 +2,7 @@ package try_java_problems;
 
 import java.util.Scanner;
 
-public class find_factorial {
+public class FindFactorial {
 
 	public static void main(String[] args) {
 		int numm, fact = 1;
