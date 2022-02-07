@@ -1,6 +1,7 @@
 package online_fastfood_ordering_project;
 
 public class Customer {
+
 	private String name;
 	private String email;
 	private long phone;
