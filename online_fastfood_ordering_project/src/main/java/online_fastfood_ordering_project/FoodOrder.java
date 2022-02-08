@@ -3,6 +3,7 @@ package online_fastfood_ordering_project;
 import java.util.Scanner;
 
 public class FoodOrder {
+	GenerateBill billObj = new GenerateBill();
 	Scanner sc = new Scanner(System.in);
 
 	public void foodOrder() {
@@ -106,6 +107,7 @@ public class FoodOrder {
 			System.out.println("Do you want to order more? 1.Yes 2.No");
 			opt = sc.nextInt();
 		} while (opt == 1);
+		billObj.generateBill(sum);
 		System.out.println("Your Total Bill : " + sum);
 		do {
 			System.out.println("Enter the amount you pay :");
