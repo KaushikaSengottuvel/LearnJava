@@ -7,7 +7,7 @@ public class FoodOrder {
 	Scanner sc = new Scanner(System.in);
 
 	public void foodOrder() {
-		int main, quan, opt, myAmount, sum = 0;
+		int main, quan, opt, sum = 0;
 		char sub;
 		do {
 			System.out.println("Please select the main Menu Number to order(1,2,3, or 4).");
@@ -108,15 +108,6 @@ public class FoodOrder {
 			opt = sc.nextInt();
 		} while (opt == 1);
 		billObj.generateBill(sum);
-		System.out.println("Your Total Bill : " + sum);
-		do {
-			System.out.println("Enter the amount you pay :");
-			myAmount = sc.nextInt();
-			if (myAmount > sum)
-				System.out.println("Please have your balance amount : " + (myAmount - sum));
-			else
-				System.out.println("You have Insufficient Amount. Please check it out!");
-		} while (myAmount < sum);
-		System.out.println("Thank you for choosing Us! Please visit Again!!");
+
 	}
 }
