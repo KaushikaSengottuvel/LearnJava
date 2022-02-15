@@ -1,4 +1,4 @@
-package try_java_problems;
+package java_array_problems;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class AverageUsingArray {
 	public static void main(String[] args) {
 		int n, avg1 = 0, avg2 = 0;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the count of numbers :");
+		System.out.println("Enter the range of numbers :");
 		n = sc.nextInt();
 		double num[] = new double[n];
 		for (int i = 0; i < n; i++) {
