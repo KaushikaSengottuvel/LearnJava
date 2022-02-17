@@ -10,6 +10,7 @@ public class AverageUsingArray {
 		System.out.println("Enter the range of numbers :");
 		n = sc.nextInt();
 		double num[] = new double[n];
+		System.out.println("Enter the numbers");
 		for (int i = 0; i < n; i++) {
 			num[i] = sc.nextDouble();
 			avg1 += num[i];
