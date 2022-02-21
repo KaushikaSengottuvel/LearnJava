@@ -33,6 +33,9 @@ public class Add2Matrix2D {
 			}
 		}
 		System.out.println("Adding 2 matrices :\n");
+
+		// Print Using enhanced for loop( in sum[][], take i[](single array first) then
+		// from i[], take elements
 		for (int[] i : sum) {
 			for (int j : i) {
 				System.out.print(j + " ");
