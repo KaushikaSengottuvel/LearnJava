@@ -8,7 +8,6 @@ public class CharacterFrequency {
 		String s;
 		char c, d;
 		int len, count = 0;
-		CharacterFrequency obj = new CharacterFrequency();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the String :");
 		s = sc.nextLine();
