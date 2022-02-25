@@ -17,6 +17,8 @@ public class CharacterFrequency {
 		// Character is a predefined wrapper class to manipulate characters.
 		c = Character.toLowerCase(c);
 
+		// Checking for both uppercase and lowercase
+
 		// Converting to upperCase using ASCII values
 		d = (char) (c - 32);
 		len = s.length();
