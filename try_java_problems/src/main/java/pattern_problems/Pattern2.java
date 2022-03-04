@@ -7,7 +7,7 @@ public class Pattern2 {
 	// 1
 	// 12
 	// 123
-	// 1234 right angled triangle
+	// 1234 right angled triangle with numbers
 
 	public static void main(String[] args) {
 		int n;
