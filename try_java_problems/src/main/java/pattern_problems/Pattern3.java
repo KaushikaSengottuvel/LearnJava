@@ -8,7 +8,7 @@ public class Pattern3 {
 	// B B
 	// C C C
 	// D D D D
-	// E E E E E right angled triangle
+	// E E E E E right angled triangle with Alphabets
 
 	public static void main(String[] args) {
 		int n;
