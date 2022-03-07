@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class UserInput {
 	int user;
-	Customer customer = new Customer();
 	Scanner sc = new Scanner(System.in);
 	List<Customer> customerList = new ArrayList();
 
@@ -36,6 +35,7 @@ public class UserInput {
 	}
 
 	public void register() {
+		Customer customer = new Customer();// inorder to create object for each customer
 		System.out.println("Registration Details \n Enter your name :");
 		String name = sc.nextLine();
 		customer.setName(name);
