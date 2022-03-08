@@ -10,7 +10,7 @@ public class FactorsOfNumber {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number :");
 		a = sc.nextInt();
-		sc.close();
+
 		System.out.print("The factors of the number " + a + " are ");
 		for (; start <= a / 2; start++) { // it is enough to check half of the given number. so a/2
 			if (a % start == 0) {
@@ -22,7 +22,7 @@ public class FactorsOfNumber {
 			System.out.print(a + ". Its a Prime Number.");
 		else
 			System.out.print(a);
-
+		sc.close();
 	}
 
 }
