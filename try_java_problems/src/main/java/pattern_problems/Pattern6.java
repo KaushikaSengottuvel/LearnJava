@@ -22,8 +22,8 @@ public class Pattern6 {
 			for (int i = 1; i < x; i++) {// for gap
 				System.out.print(" ");
 			}
-			for (int j = 0; j < a * 2 - 1; j += 2) {// fro printing star
-				System.out.print(" * ");
+			for (int j = 0; j < a * 2 - 1; j++) {// fro printing star
+				System.out.print("*");
 			}
 			System.out.println();// new line
 			x--;
