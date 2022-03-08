@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SortInLexicographicalOrder {
 
 	public static void main(String[] args) {
-		int n;
+		int n, count = 0;
 		String temp;
 
 		Scanner sc = new Scanner(System.in);
@@ -16,16 +16,24 @@ public class SortInLexicographicalOrder {
 		String s[] = new String[n];
 
 		System.out.println("Enter the Strings now :");
+		// system automatically takes enter as input, so to avoid, include a new line
+		// b/w number and string
+		sc.nextLine();
+
 		for (int i = 0; i < n; i++) {
 			s[i] = sc.nextLine();
 		}
 
 		for (int i = 0; i < n; i++) {
 			for (int j = i; j < n; j++) {
-				if (s[i].charAt(0) < s[j].charAt(0)) {
+				if (s[i].charAt(count) == s[j].charAt(count)) {
+					count++;
+				}
+				if (s[i].charAt(count) > s[j].charAt(count)) {
 					temp = s[i];
 					s[i] = s[j];
 					s[j] = temp;
+					count = 0;
 				}
 			}
 		}
