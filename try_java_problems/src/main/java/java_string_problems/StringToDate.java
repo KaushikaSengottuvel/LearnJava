@@ -14,8 +14,8 @@ public class StringToDate {
 		LocalDate ld = LocalDate.parse(s, DateTimeFormatter.ISO_DATE);
 		System.out.println("With given Predefined format :" + ld);
 		DateTimeFormatter dformatter = DateTimeFormatter.ofPattern("MMM d yyyy");
-		LocalDate ld1 = LocalDate.parse(s, dformatter);
-		System.out.println("With " + ld1);
+		String ld1 = ld.format(dformatter);
+		System.out.println("With Custom Format : " + ld1);
 		sc.close();
 	}
 
