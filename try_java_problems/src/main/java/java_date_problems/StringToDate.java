@@ -1,4 +1,4 @@
-package java_string_problems;
+package java_date_problems;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
