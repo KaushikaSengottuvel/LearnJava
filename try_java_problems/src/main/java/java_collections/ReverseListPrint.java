@@ -5,6 +5,8 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
+import com.google.common.collect.Lists;
+
 public class ReverseListPrint {
 
 	public static void main(String[] args) {
@@ -24,11 +26,16 @@ public class ReverseListPrint {
 		while (index.hasNext())
 			System.out.println(index.next());
 
-		System.out.println("Displaying in Reverse Order :");
+		System.out.println("Reversing list elements Using Collections :");
 
 		Collections.reverse(list1);
 		for (Object e : list1)
 			System.out.println(e);
+
+		System.out.println("Reversing list elements Using LISTS :");
+
+		Lists.reverse(list1);
+		System.out.println(list1);
 
 	}
 
