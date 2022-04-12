@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
 
 import com.google.common.collect.Lists;
 
@@ -25,6 +26,12 @@ public class ReverseListPrint {
 
 		while (index.hasNext())
 			System.out.println(index.next());
+
+		System.out.println("Reversing list elements Using Iterator :");
+
+		ListIterator li = list1.listIterator(list1.size());
+		while (li.hasPrevious())
+			System.out.println(li.previous());
 
 		System.out.println("Reversing list elements Using Collections :");
 
