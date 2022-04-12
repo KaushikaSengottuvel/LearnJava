@@ -3,7 +3,7 @@ package java_collections;
 import java.util.ArrayList;
 import java.util.List;
 
-public class add_2_lists {
+public class Add2Lists {
 
 	public static void main(String[] args) {
 		List list1 = new ArrayList<>();// this List can hold all datatypes
